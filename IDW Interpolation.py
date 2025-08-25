@@ -1,3 +1,11 @@
+'''
+Spatial Rainfall Interpolation by IDW Method
+By: James Albert Kaunang
+Last Updated: June 25, 2025
+
+Perform rainfall interpolation of 1 target location based on the other 2 using IDW method
+'''
+
 import numpy as np
 import pandas as pd
 import ttkbootstrap as ttk
@@ -704,4 +712,5 @@ class IDWRainfallAnalysisGUI:
 if __name__ == "__main__":
     root = ttk.Window()
     app = IDWRainfallAnalysisGUI(root)
+
     root.mainloop()
